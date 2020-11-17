@@ -1,0 +1,58 @@
+body,
+html {
+  height: 100vh;
+}
+* {
+  text-decoration: none !important;
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  background-color: #1f9bcf;
+  border-radius: 10em;
+}
+
+.logo {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+}
+
+.avatar {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 10em;
+  border: 4 px solid #1f9bcf;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.fa-star {
+  color: #ffdc5e;
+}
+
+.fa-code-fork {
+  color: "red";
+}
+
+.one-liner {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.card-dark { background-color: #333333;}
+.card-black { background-color: #212121;}
+
+.letter-spacing-1 { letter-spacing: .5px!important;}
